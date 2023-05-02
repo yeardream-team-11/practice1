@@ -1,3 +1,6 @@
+def choose_door():
+    return random.randint(1, 3)
+
 # 팀원2
 def reveal_door(selected_door, prize_door):
     # 호스트가 선택한 문을 엶.
@@ -6,3 +9,4 @@ def reveal_door(selected_door, prize_door):
     if prize_door in doors:
         doors.remove(prize_door)
     return random.choice(doors)
+
