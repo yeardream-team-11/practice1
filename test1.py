@@ -1,3 +1,4 @@
+# <최종본> 보이면 이겁니다.
 
 def check_result(selected_door, prize_door):
     # 게임 결과 체크.
